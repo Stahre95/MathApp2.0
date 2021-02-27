@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>179285792525-marfhqg64p4locb2f57kuacrkmcdmlf4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.179285792525-marfhqg64p4locb2f57kuacrkmcdmlf4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBzAq9IAylbk_VRThCnNoZQ434kjn2WH0M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>179285792525</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>johan.MathApp</string>
+	<key>PROJECT_ID</key>
+	<string>mathapp-3b820</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mathapp-3b820.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:179285792525:ios:4614d0799faefa41874244</string>
+</dict>
+</plist>

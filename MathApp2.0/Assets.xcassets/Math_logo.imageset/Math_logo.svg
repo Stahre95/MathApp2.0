@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="clip-path">
+      <polygon points="54.16 27.52 54.16 52 31.39 52 31.39 68 54.16 68 54.16 92.33 70.23 92.33 70.23 68 93 68 93 52 70.23 52 70.23 27.52 54.16 27.52" style="fill:none;clip-rule:evenodd"></polygon>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect x="-1998.46" y="-7062.87" width="3844.7" height="11600.01" style="fill:none"></rect>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <polygon points="101.88 115.38 123.19 136.62 103 156.74 115.05 168.75 135.24 148.63 154.64 167.97 167.91 154.73 148.52 135.4 168.82 115.16 156.77 103.15 136.46 123.39 115.16 102.15 101.88 115.38" style="fill:none;clip-rule:evenodd"></polygon>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <path d="M58.49,171c-4.48,0-8.13-3.25-8.13-7.49a8.16,8.16,0,0,1,16.33,0C66.69,167.75,63,171,58.49,171Z" style="fill:none;clip-rule:evenodd"></path>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <path d="M58.49,126.93c-4.48,0-8.13-3.25-8.13-7.48a8.16,8.16,0,0,1,16.33,0c0,4.24-3.65,7.48-8.2,7.48" style="fill:none;clip-rule:evenodd"></path>
+    </clipPath>
+  </defs>
+  <title>icon</title>
+  <g style="clip-path:url(#clip-path)">
+    <g style="clip-path:url(#clip-path-2)">
+      <rect x="17.66" y="13.79" width="89.08" height="92.27" style="fill:#9d1b63"></rect>
+    </g>
+  </g>
+  <g style="clip-path:url(#clip-path-3)">
+    <g style="clip-path:url(#clip-path-2)">
+      <rect x="88.15" y="88.42" width="94.4" height="94.06" style="fill:#00c3f7"></rect>
+    </g>
+  </g>
+  <g style="clip-path:url(#clip-path-5)">
+    <g style="clip-path:url(#clip-path-2)">
+      <rect x="36.64" y="141.76" width="43.79" height="42.97" style="fill:#3fceac"></rect>
+    </g>
+  </g>
+  <g style="clip-path:url(#clip-path-7)">
+    <g style="clip-path:url(#clip-path-2)">
+      <rect x="36.64" y="97.7" width="43.79" height="42.97" style="fill:#3fceac"></rect>
+    </g>
+  </g>
+  <rect x="35.13" y="134.38" width="47.87" height="13.96" style="fill:#3fceac"></rect>
+  <rect x="113.35" y="50.7" width="47.87" height="17.11" style="fill:#a8ca30"></rect>
+</svg>
