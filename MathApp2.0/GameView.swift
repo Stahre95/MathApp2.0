@@ -9,7 +9,10 @@ import SwiftUI
 import Firebase
 
 struct GameView: View {
-    @State var currentUser = "currentUser"
+    var db = Firestore.firestore()
+    @State private var users = [userScore]()
+    
+    @State var displayName = ""
     @State var mathOperator: String
     @State var gameDifficulty: String
     //declares first math number
@@ -25,8 +28,8 @@ struct GameView: View {
     //correct guesses
     @State var correctGuesses: Int = 0
     @State var mathOperatorSign: String = "+"
-    @State var gameIsActive = true
     @State var showingGameAlert = false
+    @State var displayLeaderBoard = false
     var alert: Alert {
         Alert(
             title: Text("GAME OVER!"),
@@ -112,6 +115,24 @@ struct GameView: View {
             activeGame()
             generateMathNumbers()
             
+            
+            
+        }
+        .sheet(isPresented: $displayLeaderBoard){
+            VStack{
+                List{
+                    ForEach(users){userScore in
+                        HStack {
+                            Text(userScore.displayName)
+                            Text(String(userScore.additionHighScore))
+                            Text(String(userScore.subtractionHighScore))
+                            Text(String(userScore.multiplyHighScore))
+                            Text(String(userScore.divisionHighScore))
+                            
+                        }
+                    }
+                }
+            }
         }
         .navigationBarBackButtonHidden(true)
     }
@@ -214,11 +235,19 @@ struct GameView: View {
     func activeGame(){
         correctGuesses = 0
         seconds = 60
-        gameIsActive = true
+        
+        
         
         if seconds == 0 {
-            gameIsActive = false
-           
+            
+            //update data to firebase
+            /* if correctGuesses > userScore.additionHighScore{
+             db.collection("users").document(id).updateData()
+             }*/
+            
+            
+            //display Leaderboard
+           displayLeaderBoard = true
         }
     }
     

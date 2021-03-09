@@ -20,6 +20,7 @@
 		D10DB46525EAB8480088D6BC /* Homescreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10DB46425EAB8480088D6BC /* Homescreen.swift */; };
 		D10DB46A25EAB8750088D6BC /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10DB46925EAB8750088D6BC /* GameView.swift */; };
 		D10DB46F25EABAB00088D6BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D10DB46E25EABAB00088D6BC /* GoogleService-Info.plist */; };
+		D10DB47425ED3D5F0088D6BC /* userScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10DB47325ED3D5F0088D6BC /* userScore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		D10DB46425EAB8480088D6BC /* Homescreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homescreen.swift; sourceTree = "<group>"; };
 		D10DB46925EAB8750088D6BC /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		D10DB46E25EABAB00088D6BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D10DB47325ED3D5F0088D6BC /* userScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userScore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		D10DB41E25EAB3090088D6BC = {
 			isa = PBXGroup;
 			children = (
+				D10DB47325ED3D5F0088D6BC /* userScore.swift */,
 				D10DB42925EAB3090088D6BC /* MathApp2.0 */,
 				D10DB43B25EAB30B0088D6BC /* MathApp2.0Tests */,
 				D10DB44625EAB30B0088D6BC /* MathApp2.0UITests */,
@@ -288,6 +291,7 @@
 			files = (
 				D10DB42D25EAB3090088D6BC /* ContentView.swift in Sources */,
 				D10DB46525EAB8480088D6BC /* Homescreen.swift in Sources */,
+				D10DB47425ED3D5F0088D6BC /* userScore.swift in Sources */,
 				D10DB46A25EAB8750088D6BC /* GameView.swift in Sources */,
 				D10DB42B25EAB3090088D6BC /* MathApp2_0App.swift in Sources */,
 			);
