@@ -161,13 +161,13 @@ struct Homescreen: View {
         }.navigationBarBackButtonHidden(true)
     }
     func saveDisplayName() {
-        guard let placeholder = Auth.auth().currentUser else {
+        guard let UUID = Auth.auth().currentUser else {
             return
         }
         let user = userScore(displayName: displayNameInput)
         
         do {
-            _ = try db.collection("users").document(placeholder.uid).setData(from: user)
+            _ = try db.collection("users").document(UUID.uid).setData(from: user)
         } catch {
             print("Print error saving to DB")
         }

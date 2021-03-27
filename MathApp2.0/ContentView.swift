@@ -68,7 +68,7 @@ struct Home : View {
 }
 
 
-
+//login View design
 struct Login : View{
     @State var email = ""
     @State var password = ""
@@ -177,8 +177,11 @@ struct Login : View{
             }
         }
     }
+    
+    //function to sign in user
     func verify(){
         
+        //checks if email and password field is filled out correctly
         if self.email != "" && self.password != ""{
             
             Auth.auth().signIn(withEmail: self.email, password: self.password) { (res, err) in
@@ -196,14 +199,17 @@ struct Login : View{
             }
             
         }else {
+            //display error alert if fields are not filled out correctly
             self.error = "Please fill out all the fields properly"
             self.alert.toggle()
         }
                 
     }
     
+    //function to reset user password
     func resetPassword(){
         
+        //checks if email field is filled out
         if self.email != ""{
         
             Auth.auth().sendPasswordReset(withEmail: self.email) {(err) in
@@ -219,17 +225,15 @@ struct Login : View{
                 self.alert.toggle()
             }
         } else{
-            
+            //displays error alert if the email doesnt exists in DB
             self.error = "that email doesn't exist in our database"
             self.alert.toggle()
         }
     }
 }
 
+//register View design
 struct RegisterView : View {
-//    @State var db = Firestore.firestore()
-   
-   // let uid = getUID()
     @State var email = ""
     @State var password = ""
     @State var repassword = ""
@@ -356,7 +360,8 @@ struct RegisterView : View {
         }
         .navigationBarBackButtonHidden(true)
     }
-            
+     
+    //function to register user
     func registerUser(){
         
             if self.email != "" {
@@ -388,7 +393,7 @@ struct RegisterView : View {
     }
 }
 
-
+//error alert design
 struct ErrorView: View {
     @State var color = Color.init(red: 0.05, green: 0.29, blue: 0.56)
     @Binding var alert : Bool
